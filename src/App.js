@@ -1,4 +1,3 @@
-
 import './App.css';
 import {MyImages} from './components/MyImages';
 import {MyHeading} from './components/MyHeading';
