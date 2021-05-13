@@ -1,0 +1,19 @@
+.App1 {
+    background-color: #eccb0cab;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.App1-body {
+    box-sizing: border-box;
+    margin: 0%;
+    background-color: #16f08aab;
+    padding: 20px;
+    text-align: center;
+    color: brown;
+    font-size: 3cm;
+    font-family: 'Itim', cursive;
+  }

@@ -1,13 +1,13 @@
 import {React} from 'react';
-import './App.css';
+import './App1.css';
 
-let currentTime = new Date(2021, 5, 5, 21).getHours();
-let greeting = '';
+let currentTime = new Date().getHours();
+let greeting;
 
 function App1 () {
     return (
-        <div className="App-body">
-            <h1>
+        <div className="App1">
+            <h1 className="App1-body">
                 Hello World, {currentTime>1 && currentTime<12 ? <span style={{color:"green"}}>{greeting="Good Morning"}</span >: (currentTime < 19 ? <span style={{color:"Orange"}}>{greeting="Good Afternoon"}</span > : <span style={{color:"blue"}}>{greeting="Good Evening"}</span >)}
             </h1>
         </div>
