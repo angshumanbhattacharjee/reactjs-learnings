@@ -6,6 +6,7 @@ import App1 from './App1';
 import { MovieGalleryApp } from './pages/MovieGalleryApp';
 import reportWebVitals from './reportWebVitals';
 
+
 ReactDOM.render(
   <React.StrictMode>
     {/* <App1 /> */}

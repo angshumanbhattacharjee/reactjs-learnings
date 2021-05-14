@@ -1,3 +1,4 @@
+
 .movie_heading {
     background-color: rgb(232, 224, 240);
     background-blend-mode: color-dodge;
@@ -14,10 +15,10 @@
 
 .movie_card {
     padding: 10px;
-    background-color: burlywood;
+    background-color: black;
     box-sizing: content-box;
-    width: 10cm;
-    border-radius: 10px;
+    width: max-content;
+    border-radius: 20px;
     margin: 10px;
 }
 
@@ -28,7 +29,10 @@
     border-radius: 8px;
 }
 
-.movie_card_container {
-    height: 9cm;
-    width: min-content;
+.card_info {
+    font-family: 'Texturina', serif;
+    color: crimson;
+    font-size: 17px;
+    background-color: inherit;
+    
 }

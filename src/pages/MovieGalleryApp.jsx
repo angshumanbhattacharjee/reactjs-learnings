@@ -1,25 +1,25 @@
 import React from 'react';
 import {MovieCard} from '../components/MovieCard';
 import {MovieData} from '../resources/MovieData';
+import {MovieItemCard} from '../components/MovieItemCard';
 import './MovieGalleryApp.css';
 
 export const MovieGalleryApp = () => {
     return (
-        <>
+        <div>
             <h1 className="movie_heading"> TOP THRILLER MOVIES </h1>
-            <div className="movie_card_container">
             {
                 MovieData.map( (value) => {
                     return (
-                        <MovieCard 
-                        movieTitle={value.movieTitle} 
-                        movieType={value.movieType} 
-                        moviePosterLink={value.moviePosterLink}
-                        movieTrailerLink={value.movieTrailerLink}/>
+                        <MovieItemCard 
+                            key={value.id}
+                            movieTitle={value.movieTitle} 
+                            movieType={value.movieType} 
+                            moviePosterLink={value.moviePosterLink}
+                            movieTrailerLink={value.movieTrailerLink}/>
                     ); 
                 })
             }
-            </div>
-        </>
+        </div>
     );
 }
